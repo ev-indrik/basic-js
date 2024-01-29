@@ -84,7 +84,7 @@ for (початок; умова; крок) {
 }
 */
 let numFor;
-for (let numFor = 0; num < 5; numFor++) {
+for (numFor = 0; numFor < 5; numFor++) {
   console.log(numFor);
 }
 console.log(`Вивід поза циклом ${numFor}`);
