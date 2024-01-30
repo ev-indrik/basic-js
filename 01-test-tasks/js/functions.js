@@ -52,3 +52,10 @@ function showNumdersCount(num01) {
 }
 
 setTimeout(showNumdersCount, 1000, 1);
+
+// Многострочная стрелочная функция
+let getMessage = (text, name) => {
+  let message = text + ", " + name + "!";
+  console.log(message);
+};
+setTimeout(getMessage, 8000, "This is", "fish function");
