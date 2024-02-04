@@ -79,3 +79,28 @@ console.log(NaN === NaN);
 console.log(isFinite("25")); // "25" -> 25 -> true
 console.log(isFinite("Привет!")); // NaN -> false
 console.log(isFinite(10 / 0)); // Infinity -> false
+
+// STRINGS
+
+let text01 = "Hello";
+let text02 = "and";
+let numText = 32;
+
+let textSum = `${text01}! My hame is Jack ${text02} I'm ${numText}`;
+console.log(textSum);
+
+// Перенос строки на новую строку можна через обратные кавычки `` или с помощью \n
+
+let newText =
+  "Hi!\nI know it was rough time.\nBut it's all ok now.\nI'm here. We're together now";
+console.log(newText);
+
+// Табуляция (отступ) \t
+
+let textL = "Привіт!\n\tВсе буде добре\n\t\tЙ це вже розпочалося!";
+console.log(textL);
+
+// Иконки, символы UTF-16 \uКОД, UTF-32 \u{КОД}
+
+let textВ = "Hugs \u00A9 \u{1F60D}";
+console.log(textВ);
