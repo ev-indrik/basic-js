@@ -76,3 +76,21 @@ console.log(arr05);
 
 arr05[3] = "mouse";
 console.log(arr05);
+
+// Метод перебора forEach
+// Выполняет функцию для каждого элемента массива
+
+// arr.forEach(function (item, index, array) {
+//  ... делать что-то с item
+// });
+
+let arr06 = ["Jack", "Dan", "Mike"];
+
+arr06.forEach(function (item, index, array) {
+  console.log(`${item} находится на ${index} позиции в ${array}`);
+});
+
+// Стрелочная функция
+arr06.forEach((item, index, array) => {
+  console.log(`${item} находится на ${index} позиции в ${array}`);
+});
